@@ -44,7 +44,7 @@ const continueGame = ()=>{
     })
 }
 
-const handleGuess = async ()=>{
+const handleGuess = async ()=>{//practise
     const result =await enterNumber();
     alert(`Dice: ${result.randomNumber} you choose ${result.userNumber} you get ${result.points} points`)
 
